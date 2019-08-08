@@ -1,4 +1,4 @@
-FROM ubuntu:xenial
+FROM ubuntu:bionic
 MAINTAINER Srikalyan Swayampakula <srikalyansswayam@gmail.com>
 
 # Note: Install libltdl-dev so that docker binary from host can base used in the image

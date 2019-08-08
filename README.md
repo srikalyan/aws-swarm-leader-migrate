@@ -30,7 +30,7 @@ This docker image needs following environment variables
             DYNAMODB_TABLE: "<dynamodb_table>"
           volumes:
             - /var/run/docker.sock:/var/run/docker.sock
-            -  /usr/bin/docker:/usr/bin/docker
+            - /usr/bin/docker:/usr/bin/docker
             - /var/log:/var/log
 
 
